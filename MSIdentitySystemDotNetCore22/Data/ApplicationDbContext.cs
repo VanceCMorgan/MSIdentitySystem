@@ -12,5 +12,7 @@ namespace MSIdentitySystemDotNetCore22.Data
             : base(options)
         {
         }
+        public DbSet<MSIdentitySystemDotNetCore22.Models.Car> Car { get; set; }
+
     }
 }
